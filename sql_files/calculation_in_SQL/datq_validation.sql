@@ -1,3 +1,5 @@
+--Temporary Table in SQL
+
 with sales_history as (
   SELECT
     EXTRACT(YEAR FROM Date) AS YEAR --time grouping
